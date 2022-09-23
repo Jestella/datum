@@ -1,14 +1,15 @@
 import React from "react";
+import Home from "./components/NewUser/Home";
+
+import "./styles/main/main.css";
 
 const App = () => {
 
   return (
     <>
-      <div>
-        <h1> Test </h1> 
-      </div>
+      <Home />
     </>
   )
 }
 
-export default App;
+export default App; 

@@ -1,0 +1,12 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("../../assets/background-map.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*# sourceMappingURL=main.css.map */

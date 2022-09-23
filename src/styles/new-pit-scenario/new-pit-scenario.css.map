@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,wBAAwB,CAAC;EACrB,QAAQ,EAAE,QAAQ;EAClB,IAAI,EAAE,KAAK;EACX,OAAO,EAAE,YAAY;EACrB,eAAe,EAAE,aAAa;CACjC;;AAED,AAAA,YAAY,EAAE,QAAQ,EAAE,mBAAmB,CAAC;EACxC,gBAAgB,EAAE,wBAAwB;EAC1C,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;CAChB",
+    "sources": [
+        "new-pit-scenario.scss"
+    ],
+    "names": [],
+    "file": "new-pit-scenario.css"
+}
