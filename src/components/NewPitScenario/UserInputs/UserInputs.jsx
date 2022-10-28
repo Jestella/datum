@@ -6,14 +6,11 @@ const UserInputs = () => {
     const [inputData, setInputData] = useState([]);
 
     const handleOnChange = (e) => {
-        //console.log(e.currentValues);
         setInputData(currentValues => ({
             ...currentValues,
             [e.target.id]: e.target.value,
         }));
     }
-
-    //console.log(inputData);
 
 
     return (

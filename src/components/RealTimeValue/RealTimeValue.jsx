@@ -1,16 +1,16 @@
 import React from "react";
-import "../RealTimeValue/RealTimeValue.css"
 
 
-const RealTimeValues = ({inputData}) => {
+const RealTimeValues = ({inputData, targetData}) => {
 
-    console.log(inputData.BCMinput);
+  console.log(inputData);
+  console.log(targetData);
 
   return (
     <>
         <div className="realtimevalue-container">
             <p>file: </p>
-            <p>BCM-input: {inputData["BCMinput"]}</p>
+            <p>BCM-input:</p>
             <p>GTH-input:</p>
         </div>
         
