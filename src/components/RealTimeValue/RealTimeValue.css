@@ -1,0 +1,10 @@
+.realtimevalue-container{
+    background-color: white;
+    color:blue;
+    width: 500px;
+    height: 250px;
+    position: fixed;
+    bottom: 0;
+    right: 60px;
+
+}
