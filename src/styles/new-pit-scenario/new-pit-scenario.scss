@@ -1,12 +1,146 @@
 #new-pit-scenario-inputs {
+    height: 200px;
+    width: 500px;
     position: relative;
-    left: 400px;
-    display: inline-block;
+    left: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-between;
+    zoom: 0.9;
+
+    input, button {
+        cursor: pointer;
+        font-weight: 600;
+    }
 }
 
-#user-inputs, #targets, #pre-defined-inputs {
-    background-color: rgba(255, 255, 255, 0.5);
-    margin: 1rem;
+#user-inputs, #targets, #pre-defined-inputs, #real-time-values {
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 1rem;
+    margin-right: 2rem;
+
+    .container {
+        padding: 1rem;
+        max-width: 400px;
+
+        input {
+            margin: 0 auto;
+        }
+
+        h1 {
+            background-color: #fff;
+            padding: 1rem;
+            text-align: center;
+            font-size: 25px;
+            color: rgba(23, 0, 255, 1);
+        }
+
+        h3 {
+            background-color: #fff; 
+            color: rgba(23, 0, 255, 1);
+            padding: 1rem;
+            text-align: center;
+        }
+    }
+}
+
+#user-inputs {
+    input {
+        display: block;
+        margin: 1rem;
+        padding: 1rem;
+        color:rgba(23, 0, 255, 1);
+        font-weight: 600;
+        border: none;
+    }
+
+    input[type=number] {
+        background-color: rgba(255, 255, 255, 1);
+        margin-top: 1rem;
+        text-align: center;
+
+        &::placeholder {
+            color: rgba(23, 0, 255, 1);
+        }
+    }
+
+    input[type=file] {
+        margin-left: 70px;
+
+        &::-webkit-file-upload-button {
+            color: #fff;
+            background-color: rgba(23, 0, 255, 0.8);
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-top: .5rem;
+            padding-bottom: .5rem;
+        }
+    }
+}
+
+#pre-defined-inputs {
+    position: absolute;
+    margin-top: 370px;
+    text-align: center;
+
+    .pre-defined-location, .pre-defined-rainfall, .pre-defined-areaofpitfall {
+       background-color: rgba(255, 255, 255, 1);
+       margin: .5rem;
+       padding: 1rem;
+       color:rgba(23, 0, 255, 1);
+       font-weight: 600;
+    }
+}
+
+#targets {
+    margin-left: 100px;
+    width: 90%;
+    ul {
+        list-style: none;
+        padding-left: 0;
+
+        li {
+            margin-bottom: .5rem;
+
+            input[type=number] {
+                margin-right: 1rem;
+
+                &::placeholder {
+                    color: rgba(23, 0, 255, 1);
+                }
+            }
+        }
+
+        input {
+            background-color: rgba(255, 255, 255, 1);
+            color:rgba(23, 0, 255, 1);
+            border: none;
+            text-align: center;
+            padding: 1rem;
+        }
+    }
+}
+
+#real-time-values {
+    text-align: center;
+    button {
+        background-color:rgba(23, 0, 255, 0.8);
+        color: #fff;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        width: 300px;
+        border: none;
+        transition: .2s ease;
+    }
+
+    button:hover {
+        color: rgba(23, 0, 255, 1);
+        background-color: #fff;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 0;
+    }
 }

@@ -1,15 +1,180 @@
 #new-pit-scenario-inputs {
+  height: 200px;
+  width: 500px;
   position: relative;
-  left: 400px;
-  display: inline-block;
+  left: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  zoom: 0.9;
 }
 
-#user-inputs, #targets, #pre-defined-inputs {
-  background-color: rgba(255, 255, 255, 0.5);
+#new-pit-scenario-inputs input, #new-pit-scenario-inputs button {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#user-inputs, #targets, #pre-defined-inputs, #real-time-values {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 1rem;
+  margin-right: 2rem;
+}
+
+#user-inputs .container, #targets .container, #pre-defined-inputs .container, #real-time-values .container {
+  padding: 1rem;
+  max-width: 400px;
+}
+
+#user-inputs .container input, #targets .container input, #pre-defined-inputs .container input, #real-time-values .container input {
+  margin: 0 auto;
+}
+
+#user-inputs .container h1, #targets .container h1, #pre-defined-inputs .container h1, #real-time-values .container h1 {
+  background-color: #fff;
+  padding: 1rem;
+  text-align: center;
+  font-size: 25px;
+  color: #1700ff;
+}
+
+#user-inputs .container h3, #targets .container h3, #pre-defined-inputs .container h3, #real-time-values .container h3 {
+  background-color: #fff;
+  color: #1700ff;
+  padding: 1rem;
+  text-align: center;
+}
+
+#user-inputs input {
+  display: block;
   margin: 1rem;
   padding: 1rem;
+  color: #1700ff;
+  font-weight: 600;
+  border: none;
+}
+
+#user-inputs input[type=number] {
+  background-color: white;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+#user-inputs input[type=number]::-webkit-input-placeholder {
+  color: #1700ff;
+}
+
+#user-inputs input[type=number]:-ms-input-placeholder {
+  color: #1700ff;
+}
+
+#user-inputs input[type=number]::-ms-input-placeholder {
+  color: #1700ff;
+}
+
+#user-inputs input[type=number]::placeholder {
+  color: #1700ff;
+}
+
+#user-inputs input[type=file] {
+  margin-left: 70px;
+}
+
+#user-inputs input[type=file]::-webkit-file-upload-button {
+  color: #fff;
+  background-color: rgba(23, 0, 255, 0.8);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+#pre-defined-inputs {
+  position: absolute;
+  margin-top: 370px;
+  text-align: center;
+}
+
+#pre-defined-inputs .pre-defined-location, #pre-defined-inputs .pre-defined-rainfall, #pre-defined-inputs .pre-defined-areaofpitfall {
+  background-color: white;
+  margin: .5rem;
+  padding: 1rem;
+  color: #1700ff;
+  font-weight: 600;
+}
+
+#targets {
+  margin-left: 100px;
+  width: 90%;
+}
+
+#targets ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#targets ul li {
+  margin-bottom: .5rem;
+}
+
+#targets ul li input[type=number] {
+  margin-right: 1rem;
+}
+
+#targets ul li input[type=number]::-webkit-input-placeholder {
+  color: #1700ff;
+}
+
+#targets ul li input[type=number]:-ms-input-placeholder {
+  color: #1700ff;
+}
+
+#targets ul li input[type=number]::-ms-input-placeholder {
+  color: #1700ff;
+}
+
+#targets ul li input[type=number]::placeholder {
+  color: #1700ff;
+}
+
+#targets ul input {
+  background-color: white;
+  color: #1700ff;
+  border: none;
+  text-align: center;
+  padding: 1rem;
+}
+
+#real-time-values {
+  text-align: center;
+}
+
+#real-time-values button {
+  background-color: rgba(23, 0, 255, 0.8);
+  color: #fff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 300px;
+  border: none;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+}
+
+#real-time-values button:hover {
+  color: #1700ff;
+  background-color: #fff;
+}
+
+#real-time-values ul {
+  list-style: none;
+  padding-left: 0;
 }
 /*# sourceMappingURL=new-pit-scenario.css.map */

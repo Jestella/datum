@@ -11,8 +11,8 @@ const NewPitScenario = () => {
         <> 
             <div id = "new-pit-scenario-inputs">
                 <UserInputs />
-                <Targets />
                 <PreDefinedInputs />
+                <Targets />
             </div>
         </>
     )
