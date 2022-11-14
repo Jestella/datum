@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import RealTimeValues from "../../RealTimeValue/RealTimeValue";
+import RealTimeValues from "../RealTimeValue/RealTimeValue";
 
 const Targets = () => {
 
@@ -19,20 +19,20 @@ const Targets = () => {
                     <h1> Targets </h1>
                     <ul id = "contstraint-list">
                         <li>
-                            <input id = "gth-1" type = "number" class = "GTH-input" placeholder = "geotechnical height" />
-                            <input id = "date-1" type = "date" class = "constraint-date" />
+                            <input id = "gth1" type = "number" class = "GTH-input" placeholder = "geotechnical height" />
+                            <input id = "date1" type = "date" class = "constraint-date" />
                         </li>
                         <li>
-                            <input id = "gth-2" type = "number" class = "GTH-input" placeholder = "geotechnical height" />
-                            <input id = "date-2" type = "date" class = "constraint-date" />
+                            <input id = "gth2" type = "number" class = "GTH-input" placeholder = "geotechnical height" />
+                            <input id = "date2" type = "date" class = "constraint-date" />
                         </li>
                         <li>
-                            <input id = "gth-3" type = "number" class = "GTH-input" placeholder = "geotechnical height" />
-                            <input id = "date-3" type = "date" class = "constraint-date" />
+                            <input id = "gth3" type = "number" class = "GTH-input" placeholder = "geotechnical height" />
+                            <input id = "date3" type = "date" class = "constraint-date" />
                         </li>
                         <li>
-                            <input id = "gth-4" type = "number" class = "GTH-input" placeholder = "geotechnical height" />
-                            <input id = "date-4" type = "date" class = "constraint-date" />
+                            <input id = "gth4" type = "number" class = "GTH-input" placeholder = "geotechnical height" />
+                            <input id = "date4" type = "date" class = "constraint-date" />
                         </li>
                     </ul>
                 </form>

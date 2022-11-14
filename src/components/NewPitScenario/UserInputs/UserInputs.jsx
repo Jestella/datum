@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import RealTimeValues from "../../RealTimeValue/RealTimeValue";
+import RealTimeValues from "../RealTimeValue/RealTimeValue";
 
 const UserInputs = () => {
 

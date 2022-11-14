@@ -14,6 +14,7 @@ const NewPitScenario = () => {
                 <PreDefinedInputs />
                 <Targets />
             </div>
+            <button id = "submit-button"> SUBMIT </button>
         </>
     )
 }
