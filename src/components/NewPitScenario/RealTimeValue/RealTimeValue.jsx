@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 // import "../../styles/new-pit-scenario/"
 
-/*
+
 const RealTimeValues = (data) => {
   const [userData, setUserData] = useState([]);
   const [inputData, setInputData] = useState([]);
@@ -37,10 +37,16 @@ const RealTimeValues = (data) => {
 
   return (
     <>
-        <div className="realtimevalue-container">
+        <div className="realtimevalue-container"> {/* Changed it to render only over the object once its captured */}
           <div className="user-inputs">
-            <p className="bcm-input"> {bcm} </p>
-            <p className="gth-input"> {gth} </p>
+            {Object.keys(inputData).map((i) => {
+              return (
+                <ul>
+                  <li> BCM: {bcm} </li>
+                  <li> GTH {gth} </li>
+                </ul>
+              )
+            })}
           </div>
           <div className="target-inputs">
             {Object.keys(targetData).map((i) => {
@@ -72,4 +78,3 @@ const RealTimeValues = (data) => {
 }
 
 export default RealTimeValues; 
-*/

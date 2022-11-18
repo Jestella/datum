@@ -39,7 +39,6 @@ export const MasterContainer = (data) => {
 
   return (
     <div className='master-container'>
-        TESTING
           <div className="user-inputs">
             <p className="bcm-input">BCM Input: {bcm} </p>
             <p className="gth-input">GTH INput: {gth} </p>
@@ -56,19 +55,19 @@ export const MasterContainer = (data) => {
               )
             })}
           </div>
-   {/*    <div className="predefined-inputs">
-          {Object.keys(predefinedData).map((i) => {
-            // console.log(predefinedData[i][0]);
-            return (
-              <ul>
-                <li>Long and Lat: {predefinedData[i][0]}</li>
-                <li>Rainfall: {predefinedData[i][1]}</li>
-                <li>Area of pitfall: {predefinedData[i][2]}</li>
-              </ul>
-            )
-          })}
+          <div className="predefined-inputs">
+            {Object.keys(predefinedData).map((i) => {
+              // console.log(predefinedData[i][0]);
+              return (
+                <ul>
+                  <li>Long and Lat: {predefinedData[i][0]}</li>
+                  <li>Rainfall: {predefinedData[i][1]}</li>
+                  <li>Area of pitfall: {predefinedData[i][2]}</li>
+                </ul>
+              )
+            })}
           </div>
-        */}         
+               
     </div>
   )
 }

@@ -38,8 +38,8 @@ const Targets = () => {
                     </ul>
                 </form>
             </div>
-            <MasterContainer targetData={targetData}/>
-            {/*<RealTimeValues targetData={targetData} />*/}
+            {/* <MasterContainer targetData={targetData}/> */}
+            <RealTimeValues targetData={targetData} />
         </>
     )
 }

@@ -39,7 +39,7 @@ const PreDefinedInputs = () => {
                 </div>
             </div>
             {/*<MasterContainer predefinedData={[latLong, rainFall, areaOfPitfall]} />*/}
-            {/*<RealTimeValues predefinedData={[latLong, rainFall, areaOfPitfall]} />*/}
+            <RealTimeValues predefinedData={[latLong, rainFall, areaOfPitfall]} />
         </>
     )
 }
