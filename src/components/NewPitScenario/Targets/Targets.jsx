@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import { MasterContainer } from "../MasterContainer/MasterContainer";
 import RealTimeValues from "../RealTimeValue/RealTimeValue";
 
 const Targets = () => {
@@ -37,7 +38,8 @@ const Targets = () => {
                     </ul>
                 </form>
             </div>
-            <RealTimeValues targetData={targetData} />
+            <MasterContainer targetData={targetData}/>
+            {/*<RealTimeValues targetData={targetData} />*/}
         </>
     )
 }

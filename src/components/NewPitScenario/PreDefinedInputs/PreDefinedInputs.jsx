@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import { useEffect } from "react";
+import { MasterContainer } from "../MasterContainer/MasterContainer";
 import RealTimeValues from "../RealTimeValue/RealTimeValue";
 
 const PreDefinedInputs = () => {
@@ -37,7 +38,8 @@ const PreDefinedInputs = () => {
                     <div class = "pre-defined-areaofpitfall"> Area of pitfall: 999 </div>
                 </div>
             </div>
-            <RealTimeValues predefinedData={[latLong, rainFall, areaOfPitfall]} />
+            {/*<MasterContainer predefinedData={[latLong, rainFall, areaOfPitfall]} />*/}
+            {/*<RealTimeValues predefinedData={[latLong, rainFall, areaOfPitfall]} />*/}
         </>
     )
 }

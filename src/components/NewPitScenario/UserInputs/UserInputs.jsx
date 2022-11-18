@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import { MasterContainer } from "../MasterContainer/MasterContainer";
 import RealTimeValues from "../RealTimeValue/RealTimeValue";
 
 const UserInputs = () => {
@@ -11,7 +12,7 @@ const UserInputs = () => {
             [e.target.id]: e.target.value,
         }));
     }
-
+console.log(inputData);
 
     return (
         <>
@@ -23,7 +24,9 @@ const UserInputs = () => {
                     <input type = "number" id = "GTHinput" placeholder = "Geotechnical height" />
                 </form>
             </div>
-            <RealTimeValues inputData={inputData}/>
+            <MasterContainer inputData={inputData}/>
+            {/*<RealTimeValues inputData={inputData}/>*/}
+
         </>
 
     )

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 // import "../../styles/new-pit-scenario/"
 
-
+/*
 const RealTimeValues = (data) => {
   const [userData, setUserData] = useState([]);
   const [inputData, setInputData] = useState([]);
@@ -72,3 +72,4 @@ const RealTimeValues = (data) => {
 }
 
 export default RealTimeValues; 
+*/
