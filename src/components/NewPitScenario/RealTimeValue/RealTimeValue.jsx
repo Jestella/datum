@@ -65,9 +65,9 @@ const RealTimeValues = (data) => {
             // console.log(predefinedData[i][0]);
             return (
               <ul>
-                <li>Long and Lat: {predefinedData[i][0]}</li>
-                <li>Rainfall: {predefinedData[i][1]}</li>
-                <li>Area of pitfall: {predefinedData[i][2]}</li>
+                <li>{predefinedData[i][0]}</li>
+                <li>{predefinedData[i][1]}</li>
+                <li>{predefinedData[i][2]}</li>
               </ul>
             )
           })}

@@ -1,0 +1,98 @@
+#data-graph {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+
+    .recharts-wrapper {
+        position: relative;
+        height: 1000px;
+        width: 800px;
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+}
+
+#legend {
+    position: relative;
+    float: right;
+    margin-right: 60px;
+    transform: scale(1.8);
+
+    ul {
+        list-style: none;
+    }
+
+    ul li:nth-child(1)::before {
+        content: "\2022";
+        color: #000;
+        font-weight: bold;
+        display: inline-block; 
+        width: 1em;
+        margin-left: -1em;
+    }
+
+    ul li:nth-child(2)::before {
+        content: "\2022";
+        color: #ff0000;
+        font-weight: bold;
+        display: inline-block; 
+        width: 1em;
+        margin-left: -1em;
+    }
+
+    ul li:nth-child(3)::before {
+        content: "\2022";
+        color: #1700ff;
+        font-weight: bold;
+        display: inline-block; 
+        width: 1em;
+        margin-left: -1em;
+    }
+
+    ul li:nth-child(4)::before {
+        content: "\2022";
+        color: #ff10f0;
+        font-weight: bold;
+        display: inline-block; 
+        width: 1em;
+        margin-left: -1em;
+    }
+}
+
+#action-buttons {
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+    float: right;
+    width: 450px;
+
+    ul {
+        list-style: none;
+        
+        li {
+            display: inline;
+        }
+    }
+
+    button {
+        margin: 5px;
+        color: #fff;
+        background-color: rgba(23, 0, 255, 0.7);
+        border: none;
+        padding: 0.5rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        font-weight: 800;
+        cursor: pointer;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+    }
+
+    button:hover {
+        background-color: rgba(255, 255, 255, 0.7);
+        color: #1700ff;
+    }
+}
